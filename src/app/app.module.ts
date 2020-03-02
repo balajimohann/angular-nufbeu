@@ -8,7 +8,7 @@ import { translations, translationChunksConfig } from '@spartacus/assets';
 import { B2cStorefrontModule } from '@spartacus/storefront';
 
 @NgModule({
-  imports:      [ BrowserModule, ,
+  imports:      [ BrowserModule,
     B2cStorefrontModule.withConfig({
       backend: {
         occ: {
