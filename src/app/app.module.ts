@@ -29,7 +29,8 @@ import { B2cStorefrontModule } from '@spartacus/storefront';
         anonymousConsents: true
       }
     }),],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent ],
+  providers: [],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
