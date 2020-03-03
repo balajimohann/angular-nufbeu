@@ -27,6 +27,13 @@ import { B2cStorefrontModule } from '@spartacus/storefront';
       features: {
         level: '1.5',
         anonymousConsents: true
+      },
+      view:{
+        infiniteScroll:{
+          active:true,
+          showMoreButton:true,
+          productLimit:8
+        }
       }
     }),],
   declarations: [ AppComponent ],
