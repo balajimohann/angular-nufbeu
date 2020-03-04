@@ -31,7 +31,6 @@ import { B2cStorefrontModule } from '@spartacus/storefront';
       view:{
         infiniteScroll:{
           active:true,
-          showMoreButton:false,
           productLimit:8
         }
       }
